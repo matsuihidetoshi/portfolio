@@ -2,7 +2,7 @@
   <div class="skills">
     <h1 class="small-title">Skills</h1>
     <div class="wrapper">
-      <div class="section">
+      <div class="section lose_margin">
         <h2 class="section-title">プログラミング言語</h2>
         <div class="section-image"><img src="@/assets/ruby_icon.png"></div>
         <div class="section-text">
@@ -11,14 +11,13 @@
             <li>★★★★☆</li>
             <li>経験年数：2年</li>
           </ul>
-          <p>いくつかのプロジェクトで扱い</p>
-          <p>最も使い慣れた言語です。</p>
-          <p>黒魔術など、奥が深い部分は</p>
-          <p>まだまだ未熟なので、更なる</p>
-          <p>レベルアップを図りたいです。</p>
+          <p>Ruby on Railsを使い</p>
+          <p>業務効率化ツール、ECサイト、</p>
+          <p>コーポレートサイトなどを構築</p>
+          <p>してきました。</p>
         </div>
       </div>
-      <div class="section">
+      <div class="section add_margin">
         <div class="section-image"><img src="@/assets/python_icon.png" class="small_icon"></div>
         <div class="section-text">
           <h3>Python</h3>
@@ -33,14 +32,14 @@
           <p>制作を通し、学習しています。</p>
         </div>
       </div>
-      <div class="section">
+      <div class="section lose_margin">
         <h2 class="section-title">フロントエンド</h2>
         <div class="section-image"><img src="@/assets/html_icon.png" class="small_icon"></div>
         <div class="section-text">
           <h3>HTML</h3>
           <ul>
             <li>自信度：★★★★☆</li>
-            <li>経験年数：2年</li>
+            <li>経験年数：1.5年</li>
           </ul>
           <p>基本中の基本ですが</p>
           <p>より無駄なく、可読性の高い</p>
@@ -48,16 +47,32 @@
           <p>常に意識しています。</p>
         </div>
       </div>
-      <div class="section">
+      <div class="section lose_margin">
         <div class="section-image"><img src="@/assets/css_icon.png" class="small_icon"></div>
         <div class="section-text">
           <h3>CSS</h3>
           <ul>
             <li>自信度：★★★★☆</li>
-            <li>経験年数：2年</li>
+            <li>経験年数：1.5年</li>
           </ul>
           <p>センス良く、効果・効率が</p>
           <p>最大限になるよう心掛けています。</p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-image"><img src="@/assets/javascript_icon.png" class="small_icon"></div>
+        <div class="section-text">
+          <h3>JavaScript</h3>
+          <ul>
+            <li>自信度：★★★☆☆</li>
+            <li>経験年数：1.5年</li>
+          </ul>
+          <p>jQueryのプラグインなどを使い</p>
+          <p>サイトのUI/UX改善に使用して</p>
+          <p>きました。最近では、新しい記法や</p>
+          <p>フレームワークを取り入れ、より</p>
+          <p>モダンなアプリケーション構築を</p>
+          <p>目指しています。</p>
         </div>
       </div>
     </div>
@@ -115,6 +130,12 @@ a {
   }
   .section {
     margin-top: 50px;
+  }
+  .add_margin {
+    margin-bottom: 100px;
+  }
+  .lose_margin {
+    margin-bottom: -80px;
   }
 }
 </style>
