@@ -2,77 +2,136 @@
   <div class="skills">
     <h1 class="small-title">Skills</h1>
     <div class="wrapper">
-      <div class="section lose_margin">
+      <div class="section">
         <h2 class="section-title">プログラミング言語</h2>
-        <div class="section-image"><img src="@/assets/ruby_icon.png"></div>
+        <div class="section-image"><img src="@/assets/ruby_python_icon.png" class="small_icon"></div>
         <div class="section-text">
           <h3>Ruby</h3>
           <ul>
             <li>★★★★☆</li>
-            <li>経験年数：2年</li>
+            <li>経験期間：2年</li>
           </ul>
-          <p>Ruby on Railsを使い</p>
-          <p>業務効率化ツール、ECサイト、</p>
-          <p>コーポレートサイトなどを構築</p>
-          <p>してきました。</p>
-        </div>
-      </div>
-      <div class="section add_margin">
-        <div class="section-image"><img src="@/assets/python_icon.png" class="small_icon"></div>
-        <div class="section-text">
           <h3>Python</h3>
           <ul>
             <li>★★☆☆☆</li>
-            <li>経験年数：半年</li>
+            <li>経験期間：半年</li>
           </ul>
-          <p>実務経験はありませんが、</p>
-          <p>バックエンドとして</p>
-          <p>Lambda + Pythonを採用した</p>
-          <p>ServerlessアーキテクチャSPAの</p>
-          <p>制作を通し、学習しています。</p>
         </div>
       </div>
-      <div class="section lose_margin">
+      <div class="section add_margin">
         <h2 class="section-title">フロントエンド</h2>
-        <div class="section-image"><img src="@/assets/html_icon.png" class="small_icon"></div>
+        <div class="section-image"><img src="@/assets/html_css_js_icon.png" class="small_icon"></div>
         <div class="section-text">
           <h3>HTML</h3>
           <ul>
-            <li>自信度：★★★★☆</li>
-            <li>経験年数：1.5年</li>
+            <li>★★★★☆</li>
+            <li>経験期間：1.5年</li>
           </ul>
-          <p>基本中の基本ですが</p>
-          <p>より無駄なく、可読性の高い</p>
-          <p>コーディングができるよう</p>
-          <p>常に意識しています。</p>
-        </div>
-      </div>
-      <div class="section lose_margin">
-        <div class="section-image"><img src="@/assets/css_icon.png" class="small_icon"></div>
-        <div class="section-text">
           <h3>CSS</h3>
           <ul>
-            <li>自信度：★★★★☆</li>
-            <li>経験年数：1.5年</li>
+            <li>★★★★☆</li>
+            <li>経験期間：1.5年</li>
           </ul>
-          <p>センス良く、効果・効率が</p>
-          <p>最大限になるよう心掛けています。</p>
+          <h3>JavaScript</h3>
+          <ul>
+            <li>★★★☆☆</li>
+            <li>経験期間：1.5年</li>
+          </ul>
         </div>
       </div>
       <div class="section">
-        <div class="section-image"><img src="@/assets/javascript_icon.png" class="small_icon"></div>
+        <h2 class="section-title">フレームワーク</h2>
+        <div class="section-image"><img src="@/assets/rails_vue_icon.png" class="small_icon"></div>
         <div class="section-text">
-          <h3>JavaScript</h3>
+          <h3>Ruby on Rails</h3>
           <ul>
-            <li>自信度：★★★☆☆</li>
-            <li>経験年数：1.5年</li>
+            <li>★★★★★</li>
+            <li>経験期間：1.5年</li>
           </ul>
-          <p>jQueryのプラグインなどを使い</p>
-          <p>サイトのUI/UX改善に使用して</p>
-          <p>きました。最近では、新しい記法や</p>
-          <p>フレームワークを取り入れ、より</p>
-          <p>モダンなアプリケーション構築を</p>
-          <p>目指しています。</p>
+          <h3>Vue.js</h3>
+          <ul>
+            <li>★★★☆☆</li>
+            <li>経験期間：2ヵ月</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section add_margin">
+        <h2 class="section-title">AWSコンポーネント</h2>
+        <div class="section-image"><img src="@/assets/aws_icon.png" class="small_icon"></div>
+        <div class="section-text aws-text">
+          <h3 class="aws">EC2</h3>
+          <ul>
+            <li>★★★★☆</li>
+            <li>経験期間：1.5年</li>
+          </ul>
+          <h3 class="aws">RDS</h3>
+          <ul>
+            <li>★★★★☆</li>
+            <li>経験期間：1.5年</li>
+          </ul>
+          <h3 class="aws">Lambda</h3>
+          <ul>
+            <li>★☆☆☆☆</li>
+            <li>経験期間：1ヵ月</li>
+          </ul>
+          <h3 class="aws">Amplify</h3>
+          <ul>
+            <li>★★★★★</li>
+            <li>経験期間：2ヵ月</li>
+          </ul>
+        </div>
+      </div>
+      <div class="section other">
+        <h2 class="section-title">OSやミドルウェア、ツールなど</h2>
+        <div class="section-text other_text">
+          <h3>OS</h3>
+          <ul>
+            <li>WSL Ubuntu</li>
+            <li>Amazon Linux</li>
+          </ul>
+          <ul>
+            <li>Windows Server</li>
+          </ul>
+          <h3>ハイパーバイザー</h3>
+          <ul>
+            <li>Hyper-V</li>
+            <li>Xen Server</li>
+          </ul>
+          <h3>ネットワーク機器</h3>
+          <ul>
+            <li>Cisco</li>
+            <li>Arista</li>
+          </ul>
+          <h3>コミュニケーションツール</h3>
+          <ul>
+            <li>Slack</li>
+          </ul>
+        </div>
+        <div class="section-text">
+          <h3>DB</h3>
+          <ul>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+          </ul>
+          <ul id="disappear">
+            <li></li>
+          </ul>
+          <h3>Webサーバー</h3>
+          <ul>
+            <li>Nginx</li>
+            <li>IIS</li>
+          </ul>
+          <h3>バージョン管理(Git)</h3>
+          <ul>
+            <li>Github</li>
+            <li>Bitbucket</li>
+            <li>CodeCommit</li>
+          </ul>
+          <h3>エディタ</h3>
+          <ul>
+            <li>Visual Studio Code</li>
+            <li>Atom</li>
+          </ul>
         </div>
       </div>
     </div>
@@ -96,6 +155,15 @@ h3 {
 h2 {
   margin: 50px 0 0;
 }
+.aws {
+  margin-top: 10px;
+}
+.aws-text {
+  margin-bottom: 40px;
+}
+.other {
+  margin-bottom: 200px;
+}
 ul {
   list-style-type: none;
   padding: 0;
@@ -106,6 +174,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.section-text ul {
+  text-align: center;
 }
 #top-image {
   background: url('../assets/top_sea.jpg') center;
@@ -136,6 +207,21 @@ a {
   }
   .lose_margin {
     margin-bottom: -80px;
+  }
+  .aws-text {
+    margin-bottom: 100px;
+  }
+  .other div ul {
+    margin-bottom: 20px;
+  }
+  .other_text {
+    margin-bottom: 220px;
+  }
+  .other_text h3 {
+    margin-top: 30px;
+  }
+  #disappear {
+    display: none;
   }
 }
 </style>
