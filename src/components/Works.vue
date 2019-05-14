@@ -3,7 +3,7 @@
     <h1 class="small-title">Works</h1>
     <div class="wrapper">
       <div class="section">
-        <h2 class="section-title"><div>業務効率化システム</div><div>（非公開のため一部機能のサンプル）</div></h2>
+        <h2 class="section-title"><div>業務効率化システム</div><div><small>（非公開のため一部機能のサンプル）</small></div></h2>
         <div class="video">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/yRuDM5Ygnj0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
@@ -21,6 +21,19 @@
         <div class="picture">
           <img src="../assets/architecture.jpg" alt="Sample Architecture">
         </div>
+        <div>
+          <p><span>前述の業務ツールやECサイトは、AWSを活用し、</span><span>インフラから一貫して構築してきました。</span></p>
+        </div>
+      </div>
+      <div class="section">
+        <h2 class="section-title">適性検査アプリケーション</h2>
+      </div>
+      <div class="picture">
+        <img src="../assets/numbtest_preview.jpg" alt="">
+      </div>
+      <h2><a href="https://master.d203fihs3tat0e.amplifyapp.com/" target="_blank">実際のページへ</a></h2>
+      <div>
+        <p><span>Vue.js + Amplifyで、適性検査を目的とした</span><span>ゲーム的なアプリケーションを作成しました。</span></p>
       </div>
     </div>
   </div>
@@ -70,5 +83,9 @@ p span {
 .video iframe {
   width: 100%;
   max-width: 500px;
+}
+.section-title {
+  margin-top: 80px;
+  font-size: 25px;
 }
 </style>
